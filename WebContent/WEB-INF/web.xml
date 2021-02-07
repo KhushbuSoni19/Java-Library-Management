@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+ <servlet>
+ <servlet-name>register</servlet-name>
+ <servlet-class>first.A</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>register</servlet-name>
+ <url-pattern>/A</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <servlet-name>login</servlet-name>
+ <servlet-class>first.LogIn</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>login</servlet-name>
+ <url-pattern>/LogIn</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ <servlet-name>logOut</servlet-name>
+ <servlet-class>first.LogOut</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>logOut</servlet-name>
+ <url-pattern>/LogOut</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ <servlet-name>Issue</servlet-name>
+ <servlet-class>first.Issue</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>Issue</servlet-name>
+ <url-pattern>/Issue</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <servlet-name>AddBook</servlet-name>
+ <servlet-class>first.AddBook</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>AddBook</servlet-name>
+ <url-pattern>/AddBook</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ <servlet-name>IssueBook</servlet-name>
+ <servlet-class>first.IssueBook</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>IssueBook</servlet-name>
+ <url-pattern>/IssueBook</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ <servlet-name>ProfileDetails</servlet-name>
+ <servlet-class>first.ProfileDetails</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>ProfileDetails</servlet-name>
+ <url-pattern>/ProfileDetails</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ 
+ <servlet>
+ <servlet-name>StudentList</servlet-name>
+ <servlet-class>first.StudentList</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>StudentList</servlet-name>
+ <url-pattern>/StudentList</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ <servlet-name>Bsearch</servlet-name>
+ <servlet-class>first.Bsearch</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>Bsearch</servlet-name>
+ <url-pattern>/Bsearch</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ <servlet-name>Ssearch</servlet-name>
+ <servlet-class>first.Ssearch</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>Ssearch</servlet-name>
+ <url-pattern>/Ssearch</url-pattern>
+ </servlet-mapping>
+ 
+    <session-config>  
+        <session-timeout>  
+            30  
+        </session-timeout>  
+    </session-config>  
+ 
+ </web-app> 
